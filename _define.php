@@ -1,7 +1,7 @@
 <?php
 # -- BEGIN LICENSE BLOCK ----------------------------------
 # This file is part of zh2, a theme for Dotclear 2.
-# based on WP eponym theme from Leo Babuta (http://leobabauta.com and http://zenhabits.net/themes)
+# based on WP eponym theme from Leo Babuta (http://leobabauta.com and http://zenhabits.net/theme)
 #
 # Copyright (c) Franck Paul and contributors
 # carnet.franck.paul@gmail.com
