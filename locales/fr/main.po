@@ -1,0 +1,51 @@
+msgid "Continue reading"
+msgstr "Continuer la lecture"
+
+msgid "by"
+msgstr "par"
+
+msgid "See all posts"
+msgstr "Voir tous les billets"
+
+msgid "about"
+msgstr "à propos"
+
+msgid "archives"
+msgstr "archives"
+
+msgid "posted on:"
+msgstr "publié le :"
+
+msgid "previous post:"
+msgstr "billet précédent :"
+
+msgid "next post:"
+msgstr "billet suivant :"
+
+msgid "Page not found"
+msgstr "Page non trouvée"
+
+msgid "page not found, a haïku"
+msgstr "page non trouvée, un haïku"
+
+msgid "our <a href="archive">search</a> is lonely"
+msgstr "notre <a href="archive">recherche</a> est solitaire"
+
+msgid "a footprint left in pure snow"
+msgstr "une empreinte laissée dans la neige pure"
+
+msgid "blown into"
+msgstr "soufflée dans le"
+
+msgid "nothing"
+msgstr "néant"
+
+msgid "trackback URL:"
+msgstr "URL de rétrolien :"
+
+msgid "from"
+msgstr "de"
+
+msgid "Search in"
+msgstr "Rechercher dans"
+
