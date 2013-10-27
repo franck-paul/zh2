@@ -189,6 +189,7 @@ table {
         border: 0;
         padding: 3px;
         max-width: 100%;
+        height: auto;
     }
     img a {
         border: 0
