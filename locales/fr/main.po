@@ -49,3 +49,11 @@ msgstr "de"
 msgid "Search in"
 msgstr "Rechercher dans"
 
+msgid "no reactions"
+msgstr "pas de réaction"
+
+msgid "one reaction"
+msgstr "une réaction"
+
+msgid "%s reactions"
+msgstr "%s réactions"
