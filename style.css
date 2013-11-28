@@ -220,8 +220,6 @@ table {
     line-height: 1.5em;
     color: #333333;
     padding: 0.2em 0 0 0; }
-    .post li strong {
-      font-weight: bold; }
   .post blockquote {
     font-family: "Open Sans", Helvetica, sans-serif;
     font-size: 1.3em;
@@ -315,6 +313,10 @@ table {
       position: relative; }
       .commentlist .comment-body p {
         margin: 5px; }
+      .commentlist .comment-body strong {
+        font-weight: bold; }
+      .commentlist .comment-body em {
+        font-style: italic; }
       .commentlist .comment-body a.comment-reply-link {
         color: #aeaeae;
         position: absolute;

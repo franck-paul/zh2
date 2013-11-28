@@ -365,11 +365,6 @@ table {
 			color: $list-text-color;
 			// Positions/Dimensions
 			padding: 0.2em 0 0 0;
-
-			strong {
-				// Font
-				font-weight: bold
-			}
 		}
 
 		blockquote {
@@ -520,6 +515,17 @@ table {
 				// Positions/Dimensions
 				margin: 5px;
 			}
+
+			strong {
+				// Font
+				font-weight: bold
+			}
+
+			em {
+				// Font
+				font-style: italic
+			}
+
 			a.comment-reply-link {
 				// Colors
 				color: $comment-number-color;
@@ -528,6 +534,7 @@ table {
 				top: 10px;
 				right: 10px;
 			}
+
 			cite.fn {
 				// Font
 				font-size: 14px;
