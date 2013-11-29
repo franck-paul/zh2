@@ -109,7 +109,7 @@ table {
     font-size: 3em;
     font-weight: normal;
     text-align: center;
-    color: #333;
+    color: #333333;
     margin-top: 1em; }
 
   /* subtitles */
@@ -390,6 +390,7 @@ table {
     font-size: .66em; }
 
   #c_content {
+    font-family: arsenalregular, "ff-meta-serif-web-pro", Georgia, Cambria, "Times New Roman", Times, serif;
     border: solid 1px #cccccc;
     width: 95%;
     padding: 4px; }

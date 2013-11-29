@@ -194,7 +194,7 @@ table {
 		font-weight: normal;
 		text-align: center;
 		// Colors
-		color: #333;
+		color: $text-color;
 		// Positions/Dimensions
 		margin-top: 1em;
 	}
@@ -636,6 +636,8 @@ table {
 	}
 
 	#c_content {
+		// Font
+		font-family: $text-font-family;
 		// Borders
 		border: solid 1px $input-border-color;
 		// Positions/Dimensions

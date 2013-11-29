@@ -22,7 +22,8 @@ class tplZh2Theme
 {
 	public static function IfPreviewIsNotMandatory($attr,$content)
 	{
-		$s = $GLOBALS['core']->blog->settings->themes->get($GLOBALS['core']->blog->settings->system->theme.'_style');
+		$theme_ident = preg_replace('/[^a-zA-Z0-9_]/','_',$GLOBALS['core']->blog->settings->system->theme).'_style';
+		$s = $GLOBALS['core']->blog->settings->themes->get($theme_ident);
 		if ($s !== null) {
 			$s = @unserialize($s);
 			if (is_array($s)) {

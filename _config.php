@@ -15,12 +15,14 @@ if (!defined('DC_CONTEXT_ADMIN')) { return; }
 
 l10n::set(dirname(__FILE__).'/locales/'.$_lang.'/admin');
 
+$theme_ident = preg_replace('/[^a-zA-Z0-9_]/','_',$core->blog->settings->system->theme).'_style';
+
 $zh2_base = array(
 	// Options
 	'preview_not_mandatory' => false
 );
 
-$zh2_user = $core->blog->settings->themes->get($core->blog->settings->system->theme.'_style');
+$zh2_user = $core->blog->settings->themes->get($theme_ident);
 $zh2_user = @unserialize($zh2_user);
 if (!is_array($zh2_user)) {
 	$zh2_user = array();
@@ -35,7 +37,7 @@ if (!empty($_POST))
 		$zh2_user['preview_not_mandatory'] = (integer) !empty($_POST['preview_not_mandatory']);
 
 		$core->blog->settings->addNamespace('themes');
-		$core->blog->settings->themes->put($core->blog->settings->system->theme.'_style',serialize($zh2_user));
+		$core->blog->settings->themes->put($theme_ident,serialize($zh2_user));
 
 		dcPage::addSuccessNotice(__('Theme configuration has been successfully updated.'));
 
