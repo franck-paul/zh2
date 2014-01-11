@@ -379,16 +379,17 @@ table {
 			margin: 1.8em 0.8em;
 			padding: 0 1em 0 1em;
 		}
+
 	}
 
 	/* line at bottom of post */
-	.home_bottom {
-		// Font
-		font-family: $main-font-family;
-		font-size: 2em;
-		line-height: 2.5em;
-		// Border
-		border-bottom: 1px solid $post-underline-color;
+	.dc-post, .dc-page {
+		.post {
+			// Borders
+			border-bottom: 1px solid $post-underline-color;
+			// Positions/Dimensions
+			margin-bottom: 1em;
+		}
 	}
 
 	/* previous & next posts at bottom */
@@ -434,7 +435,6 @@ table {
 		font-weight: bold;
 		line-height: 1.25em;
 		// Positions/Dimensions
-		height: 1.25em;
 		margin-bottom: 1em;
 
 		a {
@@ -729,7 +729,7 @@ table {
 	}
 	.navigation p {
 		// Font
-		font-size: 1em
+		font-size: 0.8em;
 	}
 	subscribe ul {
 		// Font
@@ -825,7 +825,7 @@ table {
 	}
 	.navigation p {
 		// Font
-		font-size: 1.5em
+		font-size: 1em;
 	}
 	.subscribe p {
 		// Font

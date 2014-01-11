@@ -229,11 +229,9 @@ table {
     padding: 0 1em 0 1em; }
 
   /* line at bottom of post */
-  .home_bottom {
-    font-family: "Open Sans", Helvetica, sans-serif;
-    font-size: 2em;
-    line-height: 2.5em;
-    border-bottom: 1px solid #efefef; }
+  .dc-post .post, .dc-page .post {
+    border-bottom: 1px solid #efefef;
+    margin-bottom: 1em; }
 
   /* previous & next posts at bottom */
   .navigation {
@@ -265,7 +263,6 @@ table {
     font-size: 2.4em;
     font-weight: bold;
     line-height: 1.25em;
-    height: 1.25em;
     margin-bottom: 1em; }
     .all_posts a {
       color: lightgrey; }
@@ -461,7 +458,7 @@ table {
     opacity: 1; }
 
   .navigation p {
-    font-size: 1em; }
+    font-size: 0.8em; }
 
   subscribe ul {
     font-size: 1.8em;
@@ -532,7 +529,7 @@ table {
     opacity: 1; }
 
   .navigation p {
-    font-size: 1.5em; }
+    font-size: 1em; }
 
   .subscribe p {
     font-size: 1em;
