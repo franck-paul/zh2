@@ -15,38 +15,38 @@ Do whatever you'd like with it.
 // ------------------------------- SASS DECLARATIONS ------------------------------------
 
 // Colors
-$main-background: #fff;					// white - background
-$main-color: #000;						// black - standard color
-$text-color: #333;						// dark grey - standard text color
-$alternate-color: #666;					// grey - alternate text color
+$main-background         : #fff;				// white - background
+$main-color              : #000;				// black - standard color
+$text-color              : #333;				// dark grey - standard text color
+$alternate-color         : #666;				// grey - alternate text color
 
-$smooth-big-text: #d3d3d3;				// light grey - used for H1, "see all posts" link
-$tagline-color: #56a49f;				// light cyan - tagligne, author credit, some input:hover and input:focus
+$smooth-big-text         : #d3d3d3;				// light grey - used for H1, "see all posts" link
+$tagline-color           : #56a49f;				// light cyan - tagligne, author credit, some input:hover and input:focus
 
-$footer-text-color: $text-color;
-$footer-link-color: $alternate-color;
+$footer-text-color       : $text-color;
+$footer-link-color       : $alternate-color;
 
-$post-underline-color: #efefef;
+$post-underline-color    : #efefef;
 
-$blockquote-border-color: #ababab;
-$list-text-color: $text-color;
+$blockquote-border-color : #ababab;
+$list-text-color         : $text-color;
 
-$link-text-color: $text-color;
-$link-hover-color: #999;
-$link-underline-color: #c0c0c0;
+$link-text-color         : $text-color;
+$link-hover-color        : #999;
+$link-underline-color    : #c0c0c0;
 
-$comment-background: #efefef;
-$comment-number-color: #aeaeae;
-$comment-border-color: #dedede;
+$comment-background      : #efefef;
+$comment-number-color    : #aeaeae;
+$comment-border-color    : #dedede;
 
-$avatar-background: #dedede;
-$avatar-border-color: #cecece;
+$avatar-background       : #dedede;
+$avatar-border-color     : #cecece;
 
-$input-border-color: #ccc;
-$input-box-shadow-color: rgba(0, 0, 0, 0.2);
+$input-border-color      : #ccc;
+$input-box-shadow-color  : rgba(0, 0, 0, 0.2);
 
-$submit-color: #eee;					// submit buttons
-$submit-background: #777;
+$submit-color            : #eee;				// submit buttons
+$submit-background       : #777;
 
 // Fonts
 $main-font-family: "Open Sans", Helvetica, sans-serif;
