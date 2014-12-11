@@ -1,6 +1,6 @@
 # Thème zh2 pour Dotclear 2
 
-Thème pour [Dotclear 2](http://fr.dotclear.org/) adapté du l'éponyme zh2 développé pour Wordpress par Leo Babauta ([Zen Habits](http://zenhabits.net/)).
+Thème pour [Dotclear 2](http://fr.dotclear.org/) adapté du l'éponyme thème zh2 développé pour Wordpress par Leo Babauta ([Zen Habits](http://zenhabits.net/)).
 
 ## Résumé
 
