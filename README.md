@@ -13,7 +13,7 @@ Thème pour [Dotclear 2](http://fr.dotclear.org/) adapté du l'éponyme thème z
 
 ## Description
 
-![Aperçu](screenshot.jpg)
+![Aperçu](http://media.dotaddict.org/pda/tdc2/zh2/zh2.jpg)
 
 Ce thème est mono-colonne, n’utilise aucune image, ne met en œuvre ni catégories ni mots-clés, pas plus que les widgets. Il gère cependant les commentaires et les rétroliens, s’ils sont ouverts, et les annexes des billets — il n’est pas réellement conçu pour ça. Sa page d’accueil n’affiche que le dernier billet, limité à l’extrait s’il en comporte un.
 
