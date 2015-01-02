@@ -5,7 +5,6 @@ Thème pour [Dotclear 2](http://fr.dotclear.org/) adapté du l'éponyme thème z
 ## Résumé
 
 * Thème zh2 pour Dotclear 2 (**2.7 minimum**)
-* Version 1.3
 * [Démo et téléchargement](http://themes.dotaddict.org/galerie-dc2/details/zh2)
 * [Sources, bugs, …](https://bitbucket.org/franckpaul/zh2)
 * Auteur : [Franck Paul](http://open-time.net/)
