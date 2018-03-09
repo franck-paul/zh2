@@ -1,5 +1,10 @@
-<div class="top">
-  <h1><a href="{{tpl:BlogURL}}">{{tpl:BlogName encode_html="1"}}</a> : <a id="tagline" href="{{tpl:BlogURL}}pages/about">{{tpl:BlogDescription cut_string="180" encode_html="1"}}</a></h1>
+yep <div class="top">
+  <h1>
+	<a href="{{tpl:BlogURL}}">{{tpl:BlogName encode_html="1"}}</a>
+  	<tpl:SysIf has_blog_descr="1">
+	  	 : <a id="tagline" href="{{tpl:BlogURL}}pages/about">{{tpl:BlogDescription cut_string="180" encode_html="1"}}</a>
+  	</tpl:SysIf>
+  </h1>
 
   <!-- # --BEHAVIOR-- publicTopAfterContent -->
   {{tpl:SysBehavior behavior="publicTopAfterContent"}}
