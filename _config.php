@@ -15,15 +15,15 @@ l10n::set(dirname(__FILE__) . '/locales/' . $_lang . '/admin');
 
 $theme_ident = preg_replace('/[^a-zA-Z0-9_]/', '_', $core->blog->settings->system->theme) . '_style';
 
-$zh2_base = array(
+$zh2_base = [
     // Options
     'preview_not_mandatory' => false
-);
+];
 
 $zh2_user = $core->blog->settings->themes->get($theme_ident);
 $zh2_user = @unserialize($zh2_user);
 if (!is_array($zh2_user)) {
-    $zh2_user = array();
+    $zh2_user = [];
 }
 $zh2_user = array_merge($zh2_base, $zh2_user);
 

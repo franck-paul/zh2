@@ -16,10 +16,10 @@ if (!defined('DC_RC_PATH')) {return;}
 \l10n::set(dirname(__FILE__) . '/locales/' . $_lang . '/main');
 
 # Templates
-$core->tpl->addBlock('IfPreviewIsNotMandatory', array(__NAMESPACE__ . '\tplZh2Theme', 'IfPreviewIsNotMandatory'));
+$core->tpl->addBlock('IfPreviewIsNotMandatory', [__NAMESPACE__ . '\tplZh2Theme', 'IfPreviewIsNotMandatory']);
 
 # Behaviors
-$core->addBehavior('tplIfConditions', array(__NAMESPACE__ . '\tplZh2Theme', 'tplIfConditions'));
+$core->addBehavior('tplIfConditions', [__NAMESPACE__ . '\tplZh2Theme', 'tplIfConditions']);
 
 class tplZh2Theme
 {

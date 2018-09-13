@@ -16,7 +16,8 @@ $this->registerModule(
     "Zen habits (based on eponym Wordpress theme designed by Leo Babuta)", // Description
     "Franck Paul",                                                         // Author
     '1.4',                                                                 // Version
-    array(
-        'type' => 'theme' // Type
-    )
+    [
+        'requires' => [['core', '2.13']], // Dependencies
+        'type'     => 'theme'            // Type
+    ]
 );
