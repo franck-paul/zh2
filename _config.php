@@ -61,7 +61,7 @@ You can modify this link by editing the <code>_top.html</code> template file (se
 echo '<h5>' . __('Subscribe links') . '</h5>';
 
 echo __('<p>The subcribe links may be modified by editing the <code>_footer.html</code> template file, inside the first <code>&lt;div&gt;</code>, (see <a href="blog_theme.php">Blog apparence</a> > <a href="plugin.php?p=themeEditor">Theme editor</a>).<br />
-By default you will find here the Atom Feed link of the blog, a link to the contact page (using the <strong>ContactMe</strong> plugin), a link to Twitter, Google+ and Facebook.</p>');
+By default you will find here the Atom Feed link of the blog, a link to the contact page (using the <strong>ContactMe</strong> plugin), a link to Twitter and Mastodon.</p>');
 
 echo '<h5>' . __('Footer') . '</h5>';
 
