@@ -13,16 +13,16 @@ if (!defined('DC_RC_PATH')) {
 }
 
 $this->registerModule(
-    'zh2',                                                                 // Name
-    'Zen habits (based on eponym Wordpress theme designed by Leo Babuta)', // Description
-    'Franck Paul',                                                         // Author
-    '1.6',                                                                 // Version
+    'zh2',
+    'Zen habits (based on eponym Wordpress theme designed by Leo Babuta)',
+    'Franck Paul',
+    '2.0',
     [
-        'requires' => [['core', '2.16']], // Dependencies
-        'type'     => 'theme',            // Type
+        'requires' => [['core', '2.24']],
+        'type'     => 'theme',
 
-        'details'    => 'https://open-time.net/?q=zh2',       // Details URL
-        'support'    => 'https://github.com/franck-paul/zh2', // Support URL
-        'repository' => 'https://raw.githubusercontent.com/franck-paul/zh2/master/dcstore.xml'
+        'details'    => 'https://open-time.net/?q=zh2',
+        'support'    => 'https://github.com/franck-paul/zh2',
+        'repository' => 'https://raw.githubusercontent.com/franck-paul/zh2/master/dcstore.xml',
     ]
 );
