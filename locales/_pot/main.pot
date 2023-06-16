@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Dotclear 2 zh2 module\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-06 14:27+0200\n"
+"POT-Creation-Date: 2023-06-16 16:13+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,6 +34,10 @@ msgstr ""
 
 #: ../git-themes/zh2/__html_tpl_dummy.php:16
 msgid "Subject"
+msgstr ""
+
+#: ../git-themes/zh2/__html_tpl_dummy.php:24
+msgid "Welcome"
 msgstr ""
 
 #: ../git-themes/zh2/__html_tpl_dummy.php:28
