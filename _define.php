@@ -12,7 +12,7 @@ $this->registerModule(
     'zh2',
     'Zen habits (based on eponym Wordpress theme designed by Leo Babuta)',
     'Franck Paul',
-    '3.0',
+    '3.0.1',
     [
         'requires' => [['core', '2.26']],
         'type'     => 'theme',
