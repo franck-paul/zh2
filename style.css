@@ -166,7 +166,6 @@ table {
     background-color: var(--main-background);
     padding: 0.6em;
   }
-
   .top {
     /* fades out blog title */
     -webkit-opacity: 0.3;
@@ -177,7 +176,6 @@ table {
     -ms-transition: opacity 3s linear;
     transition: opacity 3s linear;
   }
-
   .top:hover {
     /* fades blog title back in on hover */
     -webkit-opacity: 1;
@@ -188,14 +186,12 @@ table {
     -ms-transition: all 2s ease;
     transition: all 2s ease;
   }
-
   .container {
     overflow: hidden;
     padding: 0 1em;
     max-width: 42.5em;
     margin: auto;
   }
-
   /* blog title */
   h1 {
     font-size: 150%;
@@ -205,7 +201,6 @@ table {
     color: var(--smooth-big-text);
     margin: 0 0.05em 0 0;
   }
-
   h1 a:link {
     text-decoration: none;
     color: var(--smooth-big-text);
@@ -213,7 +208,6 @@ table {
     border-style: none none solid none;
     border-color: #c0c0c0;
   }
-
   h1 a:visited {
     text-decoration: none;
     color: var(--smooth-big-text);
@@ -221,11 +215,9 @@ table {
     border-style: none none solid none;
     border-color: #c0c0c0;
   }
-
   h1 a#tagline {
     color: var(--tagline-color);
   }
-
   /* post title */
   h2 {
     font-family: arsenalregular, "ff-meta-serif-web-pro", Georgia, Cambria, "Times New Roman", Times, serif;
@@ -235,7 +227,6 @@ table {
     color: var(--text-color);
     margin-top: 1em;
   }
-
   /* subtitles */
   h3 {
     font-family: arsenalregular, "ff-meta-serif-web-pro", Georgia, Cambria, "Times New Roman", Times, serif;
@@ -246,11 +237,9 @@ table {
     color: var(--alternate-color);
     margin-top: 1.5em;
   }
-
   h3 .subtitle {
     margin-top: 0.5em;
   }
-
   h4 {
     font-family: arsenalregular, "ff-meta-serif-web-pro", Georgia, Cambria, "Times New Roman", Times, serif;
     font-size: 1.5em;
@@ -258,7 +247,6 @@ table {
     line-height: 1.2em;
     color: var(--alternate-color);
   }
-
   h5 {
     font-family: "Open Sans", Helvetica, sans-serif;
     font-size: 1.2em;
@@ -266,7 +254,6 @@ table {
     text-transform: uppercase;
     color: var(--alternate-color);
   }
-
   /* author credits */
   h6 {
     -webkit-opacity: 0.3;
@@ -284,7 +271,6 @@ table {
     color: var(--alternate-color);
     margin: 1em 0 1em 0;
   }
-
   h6:hover {
     /* fades author credit back in on hover */
     -webkit-opacity: 1;
@@ -295,27 +281,22 @@ table {
     -ms-transition: all 2s ease;
     transition: all 2s ease;
   }
-
   h6 strong {
     font-weight: bold;
     color: var(--tagline-color);
   }
-
   h6 em {
     font-style: italic;
   }
-
   img {
     border: 0;
     padding: 3px;
     max-width: 100%;
     height: auto;
   }
-
   img a {
     border: 0;
   }
-
   p {
     font-family: arsenalregular, "ff-meta-serif-web-pro", Georgia, Cambria, "Times New Roman", Times, serif;
     font-size: 1.3em;
@@ -323,49 +304,36 @@ table {
     color: var(--text-color);
     margin: 0.7em 0 1em 0;
   }
-
-  a:link,
-  a:visited,
-  a:hover {
+  a:link, a:visited, a:hover {
     text-decoration: none;
     border: 0;
     border-width: 0;
     border-style: none;
   }
-
-  a:link,
-  a:visited {
+  a:link, a:visited {
     color: var(--text-color);
   }
-
   a:hover {
     color: #999;
   }
-
   /* post styles */
   .post strong {
     font-weight: bold;
   }
-
   .post em {
     font-style: italic;
   }
-
-  .post a:link,
-  .post a:visited,
-  .post a:hover {
+  .post a:link, .post a:visited, .post a:hover {
     border-width: 0 0 1px 0;
     border-style: none none solid none;
     border-color: #c0c0c0;
   }
-
   .post h2 a,
   .post h2 a:link,
   .post h2 a:visited,
   .post h2 a:hover {
     border: none;
   }
-
   .post ul,
   .post ol {
     font-family: arsenalregular, "ff-meta-serif-web-pro", Georgia, Cambria, "Times New Roman", Times, serif;
@@ -373,23 +341,19 @@ table {
     margin-top: 0.5em;
     margin-bottom: 1em;
   }
-
   .post ul {
     list-style-type: disc;
     padding: 0.1em 0 0 1.1em;
   }
-
   .post ol {
     list-style-type: decimal;
     padding: 0.1em 0 0 1.2em;
   }
-
   .post li {
     line-height: 1.5em;
     color: var(--text-color);
     padding: 0.2em 0 0 0;
   }
-
   .post blockquote {
     font-family: "Open Sans", Helvetica, sans-serif;
     font-size: 1.3em;
@@ -398,19 +362,16 @@ table {
     margin: 1.8em 0.8em;
     padding: 0 1em 0 1em;
   }
-
   /* line at bottom of post */
   .dc-post .post,
   .dc-page .post {
     border-bottom: 1px solid #efefef;
     margin-bottom: 1em;
   }
-
   /* previous & next posts at bottom */
   .navigation {
     margin-bottom: 3em;
   }
-
   .navigation p {
     font-family: "Open Sans", Helvetica, sans-serif;
     font-size: 0.7em;
@@ -421,7 +382,6 @@ table {
     margin-top: 0;
     margin-bottom: 1em;
   }
-
   /* subscription */
   .subscribe p {
     font-family: "Open Sans", Helvetica, sans-serif;
@@ -434,7 +394,6 @@ table {
     margin-top: 2em;
     margin-bottom: 2em;
   }
-
   /* "see all posts" at bottom of home page */
   .all_posts {
     font-size: 2.4em;
@@ -442,15 +401,12 @@ table {
     line-height: 1.25em;
     margin-bottom: 1em;
   }
-
   .all_posts a {
     color: var(--smooth-big-text);
   }
-
   .all_posts a:hover {
     color: var(--alternate-color);
   }
-
   /* footer text */
   .footer p {
     font-family: "Open Sans", Helvetica, sans-serif;
@@ -461,27 +417,22 @@ table {
     margin: 0;
     padding: 0;
   }
-
   .footer a {
     color: var(--alternate-color);
   }
-
   /* for archives page */
   #arc {
     overflow: hidden;
     margin: 0 1em 2em 0.4em;
   }
-
   /* for comments */
   .commentlist {
     margin: 10px 5px;
     padding: 10px;
   }
-
   .commentlist li {
     list-style: none;
   }
-
   .commentlist img.avatar,
   .commentlist img.gravatar {
     background: #dedede;
@@ -493,11 +444,9 @@ table {
     height: 32px;
     padding: 5px;
   }
-
   .commentlist .comment-author {
     line-height: 25px;
   }
-
   .commentlist .comment-body {
     background: var(--comment-background);
     border: solid thin #dedede;
@@ -505,31 +454,25 @@ table {
     padding: 10px;
     position: relative;
   }
-
   .commentlist .comment-body p {
     margin: 5px;
   }
-
   .commentlist .comment-body strong {
     font-weight: bold;
   }
-
   .commentlist .comment-body em {
     font-style: italic;
   }
-
   .commentlist .comment-body a.comment-reply-link {
     color: var(--comment-number-color);
     position: absolute;
     top: 10px;
     right: 10px;
   }
-
   .commentlist .comment-body cite.fn {
     font-size: 14px;
     font-style: normal;
   }
-
   /* Prelude viewable only for screen reader */
   #prelude {
     overflow: hidden;
@@ -542,31 +485,25 @@ table {
     height: 1px !important;
     width: 1px !important;
   }
-
   .dc-404 .post p {
     text-align: center;
   }
-
   .dc-search dd {
     margin-left: 2em;
   }
-
   /* forms */
   #search-form {
     margin-top: 2em;
   }
-
   .field {
     margin-bottom: 1em;
   }
-
   .field label {
     font-size: 0.875em;
     text-indent: 6px;
     color: var(--alternate-color);
     display: block;
   }
-
   .field input,
   .field textarea {
     font-size: 0.875em;
@@ -576,16 +513,13 @@ table {
     display: block;
     padding: 4px;
   }
-
   .field input:focus,
   .field textarea:focus {
     border-color: var(--tagline-color);
   }
-
   .field textarea {
     padding: 0.5em 1em;
   }
-
   #comment-form input[type=submit],
   #search-form input[type=submit] {
     font-size: 0.875em;
@@ -599,9 +533,7 @@ table {
     padding: 0.33em 0.66em;
     display: inline-block;
   }
-
-  #comment-form input[type=submit]:hover,
-  #comment-form input[type=submit]:focus,
+  #comment-form input[type=submit]:hover, #comment-form input[type=submit]:focus,
   #search-form input[type=submit]:hover,
   #search-form input[type=submit]:focus {
     -webkit-transition: all 2s ease;
@@ -612,32 +544,29 @@ table {
     background: var(--tagline-color);
     border: solid 1px var(--tagline-color);
   }
-
+  .jstElements button {
+    background-color: var(--submit-background) !important;
+  }
   #search-form input[type=submit] {
     font-size: 0.66em;
   }
-
   #c_content {
     font-family: arsenalregular, "ff-meta-serif-web-pro", Georgia, Cambria, "Times New Roman", Times, serif;
     border: solid 1px #ccc;
     width: 95%;
     padding: 4px;
   }
-
   #c_content:focus {
     border-color: var(--tagline-color);
   }
-
   .form-help {
     font-size: 0.875em;
     font-style: italic;
     margin-top: 0;
   }
 }
-
 /* for iPad-sized devices */
 @media only screen and (max-device-width: 50em) {
-
   /* makes blog title not fade on touch screen */
   .top {
     -webkit-opacity: 1;
@@ -645,58 +574,46 @@ table {
     opacity: 1;
     margin: auto;
   }
-
   h6 {
     -webkit-opacity: 1;
     -moz-opacity: 1;
     opacity: 1;
   }
-
   .navigation p {
     font-size: 1em;
   }
-
   .subscribe ul {
     font-size: 1.8em;
     margin-top: 4em;
   }
-
   .footer p {
     font-size: 1.2em;
   }
-
   h2 {
     font-size: 2.5em;
   }
-
   h3 {
     font-size: 2em;
   }
-
   h6 {
     font-size: 1.5em;
   }
-
   p {
     font-size: 1.5em;
     line-height: 1.5em;
   }
-
   .post ul,
   .post ol {
     font-size: 1.5em;
     line-height: 1em;
     padding: 0.1;
   }
-
   #arc {
     font-size: 1.2em;
   }
 }
-
 /* for narrower browsers */
 @media screen and (max-width: 50em) {
-
   /* makes blog title not fade on touch screen */
   .top {
     -webkit-opacity: 1;
@@ -704,43 +621,34 @@ table {
     opacity: 1;
     margin: auto;
   }
-
   h6 {
     -webkit-opacity: 1;
     -moz-opacity: 1;
     opacity: 1;
   }
-
   .navigation p {
     font-size: 0.8em;
   }
-
   subscribe ul {
     font-size: 1.8em;
     margin-top: 4em;
   }
-
   .footer p {
     font-size: 1.2em;
   }
-
   h2 {
     font-size: 2.5em;
   }
-
   h3 {
     font-size: 2em;
   }
-
   h6 {
     font-size: 1.5em;
   }
-
   p {
     font-size: 1.5em;
     line-height: 1.5em;
   }
-
   .post ul,
   .post ol {
     font-size: 1.5em;
@@ -748,45 +656,36 @@ table {
     padding: 0.1;
   }
 }
-
 /* for iPhone-sized devices */
 @media only screen and (max-device-width: 30em) {
   .container {
     width: auto;
   }
-
   body {
     padding: 0;
   }
-
   h1 {
     font-size: 2em;
   }
-
   h2 {
     font-size: 2.5em;
   }
-
   h3 {
     font-size: 1.8em;
   }
-
   h6 {
     -webkit-opacity: 1;
     -moz-opacity: 1;
     opacity: 1;
     font-size: 1.3em;
   }
-
   p {
     font-size: 1.2em;
     line-height: 1.4em;
   }
-
   .post ul {
     list-style-type: disc;
   }
-
   .post ul,
   .post ol {
     list-style-position: inside;
@@ -795,32 +694,26 @@ table {
     padding: 0.5em;
     margin: 0;
   }
-
   .post li {
     margin: 0;
   }
-
   /* makes blog title not fade on touch screen */
   .top {
     -webkit-opacity: 1;
     -moz-opacity: 1;
     opacity: 1;
   }
-
   .navigation p {
     font-size: 1em;
   }
-
   .subscribe p {
     font-size: 1em;
     margin-top: 1em;
   }
-
   .footer p {
     font-size: 1em;
   }
 }
-
 @media print {
   body {
     font-family: Helvetica, sans-serif;
@@ -830,11 +723,9 @@ table {
     margin: 10;
     width: auto;
   }
-
   .container {
     display: block;
   }
-
   #prelude,
   .navigation,
   .subscribe,
@@ -842,5 +733,3 @@ table {
     display: none;
   }
 }
-
-/*# sourceMappingURL=style.css.map */

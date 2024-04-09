@@ -14,8 +14,9 @@ $this->registerModule(
     'Franck Paul',
     '5.1',
     [
-        'requires' => [['core', '2.28']],
-        'type'     => 'theme',
+        'requires'           => [['core', '2.30']],
+        'type'               => 'theme',
+        'information_config' => true,
 
         'details'    => 'https://open-time.net/?q=zh2',
         'support'    => 'https://github.com/franck-paul/zh2',
