@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @brief zh2, a plugin for Dotclear 2
  *
@@ -14,13 +15,17 @@ declare(strict_types=1);
 
 namespace Dotclear\Theme\zh2;
 
+use ArrayObject;
+
 class FrontendBehaviors
 {
-    public static function tplIfConditions($tag, $attr, $content, $if)
+    public static function tplIfConditions(string $tag, array $attr, string $content, ArrayObject $if): string
     {
-        if ($tag == 'SysIf' && isset($attr['has_blog_descr'])) {
+        if ($tag === 'SysIf' && isset($attr['has_blog_descr'])) {
             $sign = (bool) $attr['has_blog_descr'] ? '' : '!';
             $if[] = $sign . '(strlen(App::blog()->desc()) !== 0)';
         }
+
+        return '';
     }
 }
