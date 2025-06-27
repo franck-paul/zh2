@@ -16,12 +16,14 @@ $this->registerModule(
     '6.1',
     [
         'date'               => '2003-08-13T13:42:00+0100',
-        'requires'           => [['core', '2.30']],
+        'requires'           => [['core', '2.35']],
         'type'               => 'theme',
         'information_config' => true,
+        'overload'           => true,
 
         'details'    => 'https://open-time.net/?q=zh2',
         'support'    => 'https://github.com/franck-paul/zh2',
         'repository' => 'https://raw.githubusercontent.com/franck-paul/zh2/main/dcstore.xml',
+        'license'    => 'gpl2',
     ]
 );
