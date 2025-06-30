@@ -24,7 +24,6 @@ Do whatever you'd like with it.
   --tagline-color: #56a49f; // tagligne, author credit, some input:hover and input:focus
   --comment-background: #efefef;
   --comment-number-color: #aeaeae;
-  --input-background: #fff;
   --submit-color: #eee; // submit buttons
   --submit-background: #777;
 }
@@ -37,7 +36,6 @@ $smooth-big-text: var(--smooth-big-text);
 $tagline-color: var(--tagline-color);
 $comment-background: var(--comment-background);
 $comment-number-color: var(--comment-number-color);
-$input-background: var(--input-background);
 $submit-color: var(--submit-color);
 $submit-background: var(--submit-background);
 // Common colors
@@ -693,7 +691,6 @@ sub {
     textarea {
       // Font
       font-size: 0.875em; // Colors
-      background-color: $input-background; // Borders
       border: 1px solid $input-border-color;
       border-radius: 3px; // Positions/Dimensions
       display: block;
